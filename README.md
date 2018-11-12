@@ -1,2 +1,2 @@
-# rn-drip
+# react native drip
 react native
