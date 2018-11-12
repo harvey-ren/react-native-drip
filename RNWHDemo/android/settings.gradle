@@ -1,0 +1,3 @@
+rootProject.name = 'RNWHDemo'
+
+include ':app'
