@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
 
 
 type Props = {};
@@ -34,20 +34,15 @@ const styles = StyleSheet.create({
     },
     view1style: {
         fontSize: 20,
-        textAlign: 'center',
         width: 50,
         backgroundColor: '#00dd00'
     },
     view2style: {
-        textAlign: 'center',
-        color: '#333333',
         backgroundColor: '#dddd00',
         width: 50,
         height: 50
     },
     view3style: {
-        textAlign: 'center',
-        color: '#333333',
         backgroundColor: '#00dddd',
         width: 50,
         height: 50
