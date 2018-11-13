@@ -22,6 +22,7 @@ class ItemDivideComponent extends Component {
 }
 
 export default class App extends Component<Props> {
+
     render() {
         return (
             <View style={styles.container}>
@@ -38,7 +39,6 @@ export default class App extends Component<Props> {
                         {key: 'Julie'}]}
                     renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}/>
 
-
                 <SectionList
                     sections={[
                         {title: 'D', data: ['Devin']},
@@ -49,7 +49,6 @@ export default class App extends Component<Props> {
                     renderSectionHeader={({section}) => <Text style={styles.sectionHeader}>{section.title}</Text>}
                     keyExtractor={(item, index) => index}
                 />
-
             </View>
         );
     }
@@ -70,7 +69,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'stretch',
         padding: 30,
-        height: 30
+        color: '#000000'
     },
     instructions: {
         textAlign: 'center',
